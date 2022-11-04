@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(1, 1, 1, 0.9);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+#mainimg {
+    position: relative;
+    left: 50%;
+    top: 80%;
+    width: 700px;
+    transform: translate(-50%);
+}
+
+li {
+    padding: 10px;
+    position: relative;
+    left: 22%;
+    transform: translate(-50%);
+    opacity: 0.3;
+    transition: 0.8s;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+.divefect {
+    position: relative;
+    left: 90%;
+    display: inline;
+}
+
+label {
+    color: #fff;
+}
